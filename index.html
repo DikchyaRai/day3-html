@@ -1,55 +1,101 @@
 <!DOCTYPE html>
-<html lang="english">
+<html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width,initial-scale"
-    <title>techspire non credit class </title>
-    <style>
-        body{
-            font-family: arial,sans-serif;
-            margin:0;
-            padding: 0;
-            line-height: 1.6;
-        }
-        header{
-            background-color:red ;
-            color: white;
-            padding: 10px 15px;
-            text-align: center;
-        }
-        p{
-            font-size: 24px;
-        }
-        nav{
-            display: flex;
-            justify-content: center;
-            position:sticky;
-            top:0;
-            gap: 20px;
-            padding: 10px o;
-            background-color: green;
-        }
-        nav a{
-            color: #fff;
-            text-decoration: none;
-        }
-        nav a:hover{
-            background-color: lightgray;
-            padding:5px 10px;
-            border-radius: 12px;
-        }
-    </style>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Techspirse non credit JS class</title>
+        <style>
+            body{
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                line-height: 1.6;
+            }
+            header{
+                background-color: #4caf50;
+                color:#fff;
+                padding: 10px 15px;
+                text-align: center;
+            }
+            p{
+                font-size: 24px;
+            }
+            nav{
+                display: flex;
+                justify-content: center;
+                position:sticky;
+                top:0;
+                gap:14px;
+                padding:10px 0;
+                background-color: #333;
+            }
+            nav a{
+                color:white;
+                text-decoration: none;
+                padding: 5px 10px;
+
+            }
+            nav a:hover{
+                background-color:lightgray;
+                padding: 5px 10px;
+                border-radius: 12px;
+            }
+            .container{
+                max-width: 1024px;
+                margin: 0 auto;
+                padding: 20px;
+            }
+            section{
+            margin-bottom: 20px;
+            }
+            .card{
+                border:1px solid black;
+                border-radius:12px;
+                padding: 16px;
+                /* box-shadow: 2px 22px 12px rgba(0,0,0,0.1); */
+                box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+            }
+            .grid{
+                display: grid;
+                grid-template-columns:repeat(auto-fit,minmax(300px,1fr)) ;
+                gap:16px;
+            }
+
+
+
+        </style>
     </head>
     <body>
-    <header>
-        <h1>javascript basic
-        </h1>
-        <p>your  journey towards It</p> 
-     </header>
-     <nav>
-        <a href="#html">HTML</a>
-         <a href="#JAVA">JAVA</a>
-         <a href="#CSS">CSS</a>
-     </nav>
-    </body>
-    </html>
+<header>
+    <h1>
+        Let's learn html, css and JS
+    </h1>
+    <p>Your journey towards IT</p>
+</header>
+
+<nav>
+    <a href="#html">Html</a>
+    <a href="#css">CSS</a>
+    <a href="#js">Js</a>
+    <a href="#react">React</a>
+</nav>
+
+<div class="container">
+   <section id="javascript">
+    <h2>JavaScript Basics</h2>
+    <div class="grid">
+    <div class="card">
+    <h3>What is Javascript</h3>
+    <p>ipsum Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi rem repudiandae similique laborum earum? Repellat officiis expedita itaque cumque ducimus, sed esse officia quod cum perferendis enim nobis, mollitia ipsam!</p>
+  </div>
+  <div class="card">
+    <h3>What is Javascript</h3>
+    <p>ipsum Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi rem repudiandae similique laborum earum? Repellat officiis expedita itaque cumque ducimus, sed esse officia quod cum perferendis enim nobis, mollitia ipsam!</p>
+  </div>
+  </div>
+   </section>
+  
+
+</div>
+  
+</html>
